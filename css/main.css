@@ -113,18 +113,24 @@ header:hover .cat-tail {
   transition-delay: .7s;
 }
 
-.pictureActionRight {
-  transition: all 0.2s linear;
-  transform: rotate(-5deg);
-  transform: scale(1.1);
+.pictureNeedle, .picturePowder {
   transform-origin: right;
+  transition: all 0.5s linear;
+  transform: rotate(0deg) scale(1);
+}
+
+.pictureActionRight {
+  transform: rotate(15deg) scale(1.1);
+}
+
+.pictureFish, .pictureLitter, .pictureBall {
+  transform-origin: left;
+  transition: all 0.5s linear;
+  transform: rotate(0deg) scale(1);
 }
 
 .pictureActionLeft {
-  transition: all 0.2s linear;
-  transform: rotate(5deg);
-  transform: scale(1.1);
-  transform-origin: left;
+  transform: rotate(-15deg) scale(1.1);
 }
 
 .yarn-ball-green-bottom {
