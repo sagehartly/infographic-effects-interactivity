@@ -76,11 +76,13 @@ header:hover .cat-tail {
   transition: all 0.5s;
   transition-delay: .3s;
 }
+
 .colourHeader path:nth-child(5) {
   fill: #9b6831;
   transition: all 0.5s;
   transition-delay: .3s;
 }
+
 .colourHeader path:nth-child(6) {
   fill: #9b6831;
   transition: all 0.5s;
@@ -111,6 +113,19 @@ header:hover .cat-tail {
   transition-delay: .7s;
 }
 
+.pictureActionRight {
+  transition: all 0.2s linear;
+  transform: rotate(-5deg);
+  transform: scale(1.1);
+  transform-origin: right;
+}
+
+.pictureActionLeft {
+  transition: all 0.2s linear;
+  transform: rotate(5deg);
+  transform: scale(1.1);
+  transform-origin: left;
+}
 
 .yarn-ball-green-bottom {
   transform-origin: 303px 123px;
