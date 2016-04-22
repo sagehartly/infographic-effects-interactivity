@@ -53,83 +53,83 @@ header:hover .cat-tail {
 
 }
 
-.colourHeader path:nth-child(1) {
+.colour-header path:nth-child(1) {
   fill: #9b6831;
   transition: all 0.5s;
   transition-delay: .1s;
 }
 
-.colourHeader path:nth-child(2) {
+.colour-header path:nth-child(2) {
   fill: #9b6831;
   transition: all 0.5s;
   transition-delay: .1s;
 }
 
-.colourHeader path:nth-child(3) {
+.colour-header path:nth-child(3) {
   fill: #9b6831;
   transition: all 0.5s;
   transition-delay: .3s;
 }
 
-.colourHeader path:nth-child(4) {
+.colour-header path:nth-child(4) {
   fill: #9b6831;
   transition: all 0.5s;
   transition-delay: .3s;
 }
 
-.colourHeader path:nth-child(5) {
+.colour-header path:nth-child(5) {
   fill: #9b6831;
   transition: all 0.5s;
   transition-delay: .3s;
 }
 
-.colourHeader path:nth-child(6) {
+.colour-header path:nth-child(6) {
   fill: #9b6831;
   transition: all 0.5s;
   transition-delay: .5s;
 }
 
-.colourHeader path:nth-child(7) {
+.colour-header path:nth-child(7) {
   fill: #9b6831;
   transition: all 0.5s;
   transition-delay: .5s;
 }
 
-.colourHeader path:nth-child(8) {
+.colour-header path:nth-child(8) {
   fill: #9b6831;
   transition: all 0.5s;
   transition-delay: .7s;
 }
 
-.colourHeader path:nth-child(9) {
+.colour-header path:nth-child(9) {
   fill: #9b6831;
   transition: all 0.5s;
   transition-delay: .7s;
 }
 
-.colourHeader path:nth-child(10) {
+.colour-header path:nth-child(10) {
   fill: #9b6831;
   transition: all 0.5s;
   transition-delay: .7s;
 }
 
-.pictureNeedle, .picturePowder {
+.picture-needle, .picture-powder {
   transform-origin: right;
   transition: all 0.5s linear;
   transform: rotate(0deg) scale(1);
 }
 
-.pictureActionRight {
+.picture-actionright {
   transform: rotate(15deg) scale(1.1);
 }
 
-.pictureFish, .pictureLitter, .pictureBall {
+.picture-fish, .picture-litter, .picture-ball {
   transform-origin: left;
   transition: all 0.5s linear;
   transform: rotate(0deg) scale(1);
 }
 
-.pictureActionLeft {
+.picture-actionleft {
   transform: rotate(-15deg) scale(1.1);
 }
 
