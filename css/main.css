@@ -197,6 +197,10 @@ header:hover .cat-tail {
 
 }
 
+h1 {
+  display: none;
+}
+
 .blue-section .st0 {
   fill: #603913;
 }
