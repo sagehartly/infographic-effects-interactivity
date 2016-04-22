@@ -153,6 +153,16 @@ header:hover .cat-tail {
   animation: spin 2s infinite linear;
 }
 
+.picture-needle {
+  opacity: 0;
+  transition: all 200ms ease;
+}
+
+.picture-appear {
+  opacity: 1;
+}
+
+
 .cat-section {
   padding-right: 0.75em;
 }

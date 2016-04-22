@@ -25,3 +25,33 @@ $('.white-section').on('click', function () {
 $('.orange-section').on('click', function () {
   $('.picture-ball').toggleClass('picture-actionleft');
 });
+
+var $fish = $('.picture-fish')
+
+$fish.waypoint(function () {
+  $fish.addClass('picture-appear');
+}, {offset: '75%'});
+
+var $needle = $('.picture-needle')
+
+$needle.waypoint(function () {
+  $needle.addClass('picture-appear');
+}, {offset: '75%'});
+
+var $litter = $('.picture-litter')
+
+$litter.waypoint(function () {
+  $litter.addClass('picture-appear');
+}, {offset: '75%'});
+
+var $needle = $('.picture-powder')
+
+$powder.waypoint(function () {
+  $needle.addClass('picture-appear');
+}, {offset: '75%'});
+
+var $needle = $('.picture-needle')
+
+$needle.waypoint(function () {
+  $needle.addClass('picture-appear');
+}, {offset: '75%'});
