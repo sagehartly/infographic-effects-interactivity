@@ -51,7 +51,7 @@ $greybox.waypoint(function () {
 
 $whitebox.waypoint(function () {
   $powder.addClass('picture-appear');
-}, {offset: '50%'});
+}, {offset: '60%'});
 
 $orangebox.waypoint(function () {
   $ball.addClass('picture-appear');
