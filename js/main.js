@@ -1,3 +1,14 @@
+var $fish = $('.picture-fish');
+var $greenbox = $('.green-box');
+var $needle = $('.picture-needle');
+var $bluebox = $('.blue-box');
+var $litter = $('.picture-litter');
+var $greybox = $('.grey-box');
+var $powder = $('.picture-powder');
+var $whitebox = $('.white-box');
+var $ball = $('.picture-ball');
+var $orangebox = $('.orange-box');
+
 $('.header').on('mouseover', function () {
   $('.header-title').addClass('colour-header');
 });
@@ -26,36 +37,21 @@ $('.orange-section').on('click', function () {
   $('.picture-ball').toggleClass('picture-actionleft');
 });
 
-var $fish = $('.picture-fish')
-var $greenbox = $('.green-box')
-
 $greenbox.waypoint(function () {
   $fish.addClass('picture-appear');
 }, {offset: '50%'});
-
-var $needle = $('.picture-needle')
-var $bluebox = $('.blue-box')
 
 $bluebox.waypoint(function () {
   $needle.addClass('picture-appear');
 }, {offset: '50%'});
 
-var $litter = $('.picture-litter')
-var $greybox = $('.grey-box')
-
 $greybox.waypoint(function () {
   $litter.addClass('picture-appear');
-}, {offset: '40%'});
-
-var $powder = $('.picture-powder')
-var $whitebox = $('.white-box')
+}, {offset: '50%'});
 
 $whitebox.waypoint(function () {
   $powder.addClass('picture-appear');
 }, {offset: '50%'});
-
-var $ball = $('.picture-ball')
-var $orangebox = $('.orange-box')
 
 $orangebox.waypoint(function () {
   $ball.addClass('picture-appear');
